@@ -17,20 +17,32 @@ p{
 
 }
 li {
-    display: inline;
+    display: inline-block;
     padding: 20px;
     justify-content: space-between;
     font-size: larger;
     text-align: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    font-size: 20px;
 }
-nav {
-    background-color: rgb(2, 2, 96);
-}
+
 nav a{
     text-decoration: none;
-    color: rgb(7, 136, 156);
+    color: cyan;
 }
 nav a:hover{
     color: rgb(124, 4, 4);
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-link{
+    padding: 5px;
+    margin: 4px;
+    border: 2px solid black;
+    background-color: #191970;
+    color: #f5f5ff;
 }

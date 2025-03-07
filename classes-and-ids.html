@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>External CSS</title>
+    <title>Internal CSS</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        #styled-by-id{
+            font-family: Georgia, Cambria, serif;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <!--Background is dark blue and text color is azure-->
 <body>
     <nav class="nav-link">
         <ul>
-            <li class="nav-link">
+            <li>
                 <a href="index.html">Homepage</a>
             </li>
-            <li class="nav-link">
+            <li>
                 <a href="internal-css.html">Internal</a>
             </li>
-            <li class="nav-link">
+            <li>
                 <a href="external-css.html">External</a>
             </li>
-            <li class="nav-link">
+            <li>
                 <a href="CSS-Practice.html">CSS Practice</a>
             </li>
-            <li class="nav-link">
+            <li>
                 <a href="classes-and-ids.html">Classes and IDs</a>
             </li>
         </ul>
-    </nav>
-    <h1>External CSS</h1>
-    <!--Inline CSS is in the line of the HTML element (or tag)-->
-    <p>This page shows the effects of adding external CSS to HTML tags</p>
+    <main>
+        <h1>ID CSS</h1>
+        <p id="styled-by-id">This paragraph will show the effect of giving an element an ID and styling that ID</p>
+    </main>
 </body>
 </html>
