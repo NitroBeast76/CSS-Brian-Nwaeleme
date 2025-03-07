@@ -1,3 +1,54 @@
+body{
+    background-color: gray;
+    color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header{
+    background-color: skyblue;
     font-family: cursive;
+    padding: 20px 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+header a:hover {
+    color: red;
+}
+
+.header-text{
+    font-style: bold;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+    color: cornsilk;
+}
+
+main h4{
+    font-size: larger;
+}
+
+main p{
+    font-size: medium;
+}
+
+footer{
+    padding: 60px;
+    text-align: center;
+    color: red;
+    background-color: skyblue;
 }
