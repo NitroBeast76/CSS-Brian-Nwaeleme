@@ -63,6 +63,15 @@ main p{
     font-size: medium;
 }
 
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: red;
+}
+
 footer{
     padding: 60px;
     text-align: center;
