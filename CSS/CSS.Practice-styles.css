@@ -1,80 +1,95 @@
-body{
-    background-color: gray;
-    color: skyblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Styles for the body element */
+body {
+    background-color: gray; /* Sets the background color of the page to gray */
+    color: skyblue; /* Sets the text color to skyblue */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the font family for the text */
+    font-size: medium; /* Sets the font size to medium */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
 }
 
-header{
-    background-color: skyblue;
-    font-family: cursive;
-    padding: 20px 50px;
-    align-items: center;
-    justify-content: space-between;
-    color: black;
+/* Styles for the header element */
+header {
+    background-color: skyblue; /* Sets the background color of the header to skyblue */
+    font-family: cursive; /* Sets the font family for the header text to cursive */
+    padding: 20px 50px; /* Adds padding inside the header */
+    align-items: center; /* Centers items along the cross axis (requires flex container) */
+    justify-content: space-between; /* Distributes space between items (requires flex container) */
+    color: black; /* Sets the text color to black */
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: teal;
-    font-size: large;
-    font-family: cursive;
-    padding: 10px;
+/* Styles for the nav element */
+nav {
+    display: flex; /* Uses flexbox layout for the navigation */
+    justify-content: space-around; /* Distributes space around the navigation items */
+    background-color: teal; /* Sets the background color of the navigation to teal */
+    font-size: large; /* Sets the font size to large */
+    font-family: cursive; /* Sets the font family for the navigation text to cursive */
+    padding: 10px; /* Adds padding inside the navigation */
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
-}
-nav a:hover{
-    color: red;
+/* Styles for anchor elements inside nav */
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets the link color to black */
+    margin-left: 20px; /* Adds left margin to links */
 }
 
+/* Hover effect for anchor elements inside nav */
+nav a:hover {
+    color: red; /* Changes link color to red when hovered */
+}
+
+/* Styles for anchor elements inside header */
 header a {
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets the link color to black */
+    margin-left: 20px; /* Adds left margin to links */
 }
 
+/* Hover effect for anchor elements inside header */
 header a:hover {
-    color: red;
+    color: red; /* Changes link color to red when hovered */
 }
 
-.header-text{
-    font-style: bold;
-    text-align: center;
+/* Styles for elements with class header-text */
+.header-text {
+    font-style: bold; /* Sets the font style to bold */
+    text-align: center; /* Centers the text */
 }
 
-main{
-    padding: 20px;
-    color: cornsilk;
+/* Styles for the main element */
+main {
+    padding: 20px; /* Adds padding inside the main content area */
+    color: cornsilk; /* Sets the text color to cornsilk */
 }
 
-main h4{
-    font-size: larger;
+/* Styles for h4 elements inside main */
+main h4 {
+    font-size: larger; /* Sets the font size to larger */
 }
 
-main p{
-    font-size: medium;
+/* Styles for p elements inside main */
+main p {
+    font-size: medium; /* Sets the font size to medium */
 }
 
-li a{
-    text-decoration: none;
-    color: black;
+/* Styles for anchor elements inside list items */
+li a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets the link color to black */
 }
 
-li a:hover{
-    color: red;
+/* Hover effect for anchor elements inside list items */
+li a:hover {
+    color: red; /* Changes link color to red when hovered */
 }
 
-footer{
-    padding: 60px;
-    text-align: center;
-    color: red;
-    background-color: skyblue;
+/* Styles for the footer element */
+footer {
+    padding: 60px; /* Adds padding inside the footer */
+    text-align: center; /* Centers the text */
+    color: red; /* Sets the text color to red */
+    background-color: skyblue; /* Sets the background color of the footer to skyblue */
 }
