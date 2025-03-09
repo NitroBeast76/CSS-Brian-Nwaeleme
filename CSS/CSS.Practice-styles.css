@@ -27,6 +27,8 @@ nav {
     font-size: large; /* Sets the font size to large */
     font-family: cursive; /* Sets the font family for the navigation text to cursive */
     padding: 10px; /* Adds padding inside the navigation */
+    border: 2px solid black; /* Adds a border around the navigation */
+    border-radius: 10px; /* Rounds the corners of the navigation */
 }
 
 /* Styles for anchor elements inside nav */
@@ -78,7 +80,7 @@ main p {
 /* Styles for anchor elements inside list items */
 li a {
     text-decoration: none; /* Removes underline from links */
-    color: black; /* Sets the link color to black */
+    color: cornsilk; /* Sets the link color to cornsilk */
 }
 
 /* Hover effect for anchor elements inside list items */
@@ -90,6 +92,71 @@ li a:hover {
 footer {
     padding: 60px; /* Adds padding inside the footer */
     text-align: center; /* Centers the text */
-    color: red; /* Sets the text color to red */
+    color: black; /* Sets the text color to black */
     background-color: skyblue; /* Sets the background color of the footer to skyblue */
+}
+
+#button{
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+    display: inline;
+}
+
+#button:hover{
+    background-color: aqua;
+    color: rgb(0, 162, 255);
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: gray;
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content{
+    background-color: rgb(0, 0, 0);
+    margin: 15% auto;
+    padding: 20px;
+    border: 5px solid #888;
+    width: 80%;
+}
+
+.close{
+    color: #aaa;
+    float: right;       
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover{
+    color: red;
+}
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header{
+    color: red;
+}
+.modal-body{
+    color: rgba(143, 41, 41, 0.952);
+}
+
+.modal-body a{
+    text-decoration: none;
+    color: rgb(202, 194, 194);
+}
+
+.modal-body a:hover {
+    color: red;
 }
