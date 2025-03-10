@@ -11,6 +11,11 @@ h1{
     font-weight: 300;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h3{
+    font-size: medium;
+}
+
 p{
     font-size: large;
     color: rgb(184, 58, 223);
