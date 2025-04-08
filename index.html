@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline CSS</title>
     <link rel="stylesheet" href="CSS/styles.css">
-    
+    <style>
+        #serif{
+            font-family: serif;
+        }
+        #sans-serif{
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <!--Background is dark blue and text color is azure-->
 <body>
@@ -29,6 +36,9 @@
             <li class="nav-link">
                 <a href="div-and-span.html">Divs and Spans</a>
             </li>
+            <li class="nav-link">
+                <a href="typography-test.html">Typography</a>
+            </li>
         </ul>
     </nav>
     <!--Moves header text to center and font size is 40 pixels-->
@@ -36,5 +46,7 @@
     <!--Inline CSS is in the line of the HTML element (or tag)-->
     <!--font size is 24px-->
     <p>This page shows the effects of adding inline CSS to HTML tags</p>
+    <p id="serif">The most elegant type shit</p>
+    <p id="sans-serif">The most modern type shit</p>
 </body>
 </html>
