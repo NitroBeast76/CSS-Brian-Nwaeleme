@@ -1,10 +1,11 @@
 body {
-    background-color: #090909;
+    background-color: ghostwhite;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(184, 58, 223);
+    color: #291541;
+    font-size: 20px;
+    margin: 5% 10%;
 }
 h1{
-    font-size: x-large;
     color: rgb(184, 58, 223);
     text-align: center;
     text-decoration: underline;
@@ -12,15 +13,11 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h3{
-    font-size: medium;
-}
-
 p{
-    font-size: large;
     color: rgb(184, 58, 223);
 
 }
+
 li {
     display: inline-block;
     padding: 20px;

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and Text</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+
+        body{
+            background-image: url('Imagesss/paper.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main{
+            animation: fade-in 1s 1.2s ease-in-out forwards;
+        }
+
+        @keyframes fade-in{
+            from{
+                opacity: 0;
+            }
+
+            to{
+                opacity: 1;
+            }
+        }
+
+        h1{
+            font-size: 48px;
+            text-align: center;
+        }
+
+        #backgrounds p{
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #backgrounds{
+            background-color: #5ac88b; 
+            margin: 2%;
+            padding: 5%;
+            border: 2px solid black;
+        }
+
+        
+        li {
+            display: inline-block;
+            padding: 20px;
+            justify-content: space-between;
+            font-size: larger;
+            text-align: right;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 10px;
+            font-size: 20px;
+            transition: transform 2s ease-in-out,  ;
+        }
+
+        li:hover{
+            transform: translateY(-20px) scale(1.1);
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        nav a{
+            padding: 5px;
+            margin: 4px;
+            border: 2px solid black;
+            background-color: #191970;
+            color: #f5f5ff;
+        }
+
+        nav a:hover{
+            background-color: #f5f5ff;
+            color: #191970;
+            
+        }
+
+        nav a:visited{
+            color: bisque;
+        }
+
+        #null-space{
+            margin: 2%;
+            padding: 1% 0.5% 0.7% 0.3%;
+            border: 5px solid black;
+            border-top: 5px dashed firebrick;
+            border-width: 10px 15px 5px 10px;
+            border-color: black green orange;
+            border-style: ridge;
+            text-shadow: 0px 10px 10px purple;
+        }
+
+            #microsoft-logo{
+                margin: 2%;
+                padding: 2%;
+                border: 2px solid rebeccapurple;
+            }
+        
+        #overflow{
+            background-color: indigo;
+            height: 80px;
+            overflow: scroll;
+            margin: 2%;
+            padding: 2%;
+            text-align: center;
+            border: 5px solid gold;
+        }
+
+        #overflow p{
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-link">
+                <a href="index.html">Homepage</a>
+            </li>
+            <li class="nav-link">
+                <a href="internal-css.html">Internal</a>
+            </li>
+            <li class="nav-link">
+                <a href="external-css.html">External</a>
+            </li>
+            <li class="nav-link">
+                <a href="CSS-Practice.html">CSS Practice</a>
+            </li>
+            <li class="nav-link">
+                <a href="classes-and-ids.html">Classes and IDs</a>
+            </li>
+            <li class="nav-link">
+                <a href="div-and-span.html">Divs and Spans</a>
+            </li>
+    </nav>
+    <main>
+        <h1>Backgrounds and Text</h1>
+        <section id="backgrounds">
+            <p>This universe is MINE!!!!!!</p>
+            <p>I WILL WIPE OUT EVERYTHING!!!!</p>
+            <p>I AM OMNIPOTENT!!!</p>
+            <p>My power is limitless, my will unbreakable.</p>
+            <p>All who oppose me shall be crushed beneath my heel.</p>
+            <p>Bow before me, for I am the master of all.</p>
+        </section>
+
+        <div id="null-space">
+            <p>BOW BEFORE YOUR KING!!!!!!!</p>
+        </div>
+
+        <img id="microsoft-logo" src="Imagesss/micros.avif" alt="Microsoft Logo">
+        <p>Microsoft Logo</p>
+
+        <div id="overflow">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Curabitur pretium tincidunt lacus, non vehicula lorem tristique vitae. Vivamus at velit id purus blandit lobortis. Aenean suscipit, neque quis imperdiet pellentesque, nisl ligula ultricies nulla. Phasellus commodo semper felis, sit amet cursus mi tempus nec. Nulla facilisi. Integer in leo eu libero venenatis. Fusce rutrum quam ut augue blandit, quis convallis metus. Maecenas sed diam sit amet nibh vulputate.
+            </p>
+        </div>
+    </main>
+</body>
+</html>

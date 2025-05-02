@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Practice</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        * {
+            margin: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+
+        body {
+            background-image: url('Imagesss/mountain.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .nav-transition {
+            background-color: burlywood;
+            padding: 5px;
+            margin: 4px;
+            border: 2px solid black;
+            transition: width 4s, height 4s, background-color 4s, transform 4s, border 4s;
+        }
+
+        .nav-transition:hover{
+            background-color: gold;
+            width: 150px;
+            height: 100px;
+            transform: rotate(15deg) skew(10deg, 10deg);
+            border: 5px solid white;
+            
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        nav a:hover{
+            color: royalblue;
+            width: 100px;
+            height: 50px;
+            transform: rotate(5deg);
+        }
+
+        .test{
+            height: 150px;
+            width: 150px;
+            border-radius: 10%;
+            background-color: goldenrod;
+            transition: transform 15s ease-in-out, background-color 15s ease-in-out, width 15s ease-in-out, height 15s ease-in-out;
+        }
+
+        .test:hover{
+            transform: rotate(360000000deg);
+            background: linear-gradient(to bottom right, #ff6a00, #ee0979);
+            width: 600px;
+            height: 600px;
+        }
+
+        .test-2{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: goldenrod;
+            animation: test-2 5s  infinite alternate;
+        }
+        
+        @keyframes test-2{
+            0% {
+                background-color: green; ;
+                transform: translate(0px, 0px);
+                box-shadow: 0px 0px 60px green;
+            }
+
+            25% {
+                background-color: blue; 
+                transform: translate(1000px) ;
+                box-shadow: 0px 0px 60px blue;
+            }
+
+            50% {
+                background-color: red; 
+                transform: translate(1000px)  skew(180deg);
+                box-shadow: 0px 0px 60px red;
+            }
+            75% {
+                background-color: yellow; 
+                transform: translate(1000px) ;
+                box-shadow: 0px 0px 60px yellow;
+            }
+            100% {
+                background-color: blue; 
+                transform: translate(0px) ;
+                box-shadow: 0px 0px 60px blue;
+            }
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-transition">
+                <a href="index.html">Homepage</a>
+            </li>
+            <li class="nav-transition">
+                <a href="internal-css.html">Internal</a>
+            </li>
+            <li class="nav-transition">
+                <a href="external-css.html">External</a>
+            </li>
+    </nav>
+    <main>
+        
+        <h1>Transform/Transition Practice</h1>
+        <!--<div style="height: 20px; width: 100px; border-left: 25px solid transparent; border-right: 25px solid transparent; border-bottom: 50px solid brown; transform: scale(5, 3) translateX(80px);"></div>
+        <div style="height: 50px; width: 100px; background-color: brown; transform: scale(5, 5) translateY(30px) translateX(80px);"></div>
+        <div style="height: 50px; width: 100px; background-color: burlywood; transform: scale(2, 1.5) translateX(200px) translateY(75px) rotate(90deg);"></div>
+        <div style="height: 50px; width: 50px; background-color: white; transform: scale(1.5) translateX(170px)translateY(-10px);"></div>
+        <div style="height: 50px; width: 50px; background-color: white; transform: scale(1.5) translateX(385px) translateY(-55px);"></div>
+        <div style="height: 50px; width: 100px; background-color: rgb(84, 80, 76); transform: scale(5,5) translateX(85px) translateY(75px) rotate(90deg);"></div>
+        <div style="height: 50px; width: 100px; background-color: rgb(53, 51, 48); transform: scale(5,5) translateX(85px) translateY(75px) rotate(180deg);"></div>
+        <div style="height: 50px; width: 100px; background-color: rgb(72, 69, 66); transform: scale(5,5) translateX(85px) translateY(75px) rotate(90deg);"></div>
+        -->
+
+        <div class="test"></div>
+        <div class="test-2"></div>
+    </main>
+</body>
+</html>

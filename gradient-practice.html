@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+
+        * {
+            margin: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+
+        body {
+            background-image: url('Imagesss/mountain.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        p{
+            color: black;
+        }
+
+        #gradient-1 {
+            background: linear-gradient(to bottom right, teal, green);
+            transform: rotateZ(90deg);
+        }
+
+        #gradient-2 {
+            background: radial-gradient( red, black);
+            padding: 200px;
+        }
+
+        #gradient-3 {
+            background: linear-gradient(10deg, orange, yellow);
+        }
+
+        #gradient-4 {
+            background: linear-gradient(45deg, red, yellow);
+        }
+
+        #gradient-5 {
+            background: radial-gradient(circle, blue, green );
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-link">
+                <a href="index.html">Homepage</a>
+            </li>
+            <li class="nav-link">
+                <a href="internal-css.html">Internal</a>
+            </li>
+            <li class="nav-link">
+                <a href="external-css.html">External</a>
+            </li>
+            <li class="nav-link">
+                <a href="CSS-Practice.html">CSS Practice</a>
+            </li>
+            <li class="nav-link">
+                <a href="classes-and-ids.html">Classes and IDs</a>
+            </li>
+            <li class="nav-link">
+                <a href="div-and-span.html">Divs and Spans</a>
+            </li>
+    </nav>
+    <main>
+        <h1>Gradient Background</h1>
+        <p>This is a simple gradient background example.</p>
+        <p>Enjoy experimenting with different gradient styles!</p>
+
+        <div id="gradient-1">
+            <h3>Gradient 1</h3>
+            <p>This gradient transitions from teal to green to blue.</p>
+            <p>Experiment</p>
+        </div>
+
+        <div id="gradient-2">
+            <h3>Gradient 2</h3>
+            <p>This gradient transitions from red to yellow to blue.</p>
+            <p>Experiment</p>
+        </div>
+
+        <div id="gradient-3">
+            <h3>Gradient 3</h3>
+            <p>This gradient transitions from orange to yellow to green to blue to purple.</p>
+            <p>Experiment</p>
+        </div>
+
+        <div id="gradient-4">
+            <h3>Gradient 4</h3>
+            <p>This gradient transitions from red to yellow to green.</p>
+            <p>Experiment</p>
+        </div>
+
+        <div id="gradient-5">
+            <h3>Gradient 5</h3>
+            <p>This gradient transitions from blue to green to red.</p>
+            <p>Experiment</p>
+        </div>
+    </main>
+</body>
+</html>
